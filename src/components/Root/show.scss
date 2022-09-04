@@ -1,0 +1,29 @@
+.tag{
+    .images{
+  width: 90%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 100/3% 100/3% 100/3%;
+  grid-auto-rows: 100/3%;
+  grid-column-gap: 15px;
+  grid-row-gap: 20px;
+    }
+    .images{
+        img{
+            height:100%;
+            width: 100%;
+             object-position: center;
+        object-fit: cover;
+        box-shadow: 0 0 10px;
+        }
+    }
+}
+.hid_see{
+    display: none;
+}
+.selected{
+    
+}
+.notSelected{
+    
+}

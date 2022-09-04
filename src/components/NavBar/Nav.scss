@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+.left-nav-bar{
+    
+background-color: #043b42;
+color: white;
+height: 100%;
+position: fixed;
+top: 0px;
+
+.left-nav-title{
+
+      font-family: 'Aclonica', sans-serif;
+}
+.left-nav-foot{
+    position: absolute;
+}
+}
+@media only screen and (max-width: 600px) {
+ .contentArea{
+  margin-left: 8rem;
+ }
+ .left-nav-bar{
+     width: 8rem;
+ }
+ .left-nav-body{
+     font-size: 0.7rem;
+ }
+ .left-nav-title{
+     width: 100%;
+     font-size: 2rem;
+ }
+ .left-nav-foot{
+     font-size: 1rem;
+ }
+}

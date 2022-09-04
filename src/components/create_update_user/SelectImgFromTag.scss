@@ -1,0 +1,75 @@
+.sliderHere {
+  overflow: hidden;
+  .popUpHere {
+    top: 0;
+    background-color: white;
+    display: none;
+    position: absolute;
+    opacity: 2;
+    margin: auto;
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+  }
+  .imageBox {
+    min-height: 30vh;
+    max-width: 70vw;
+    max-height: 80vh;
+    border: 2px solid;
+  }
+  .images {
+    margin: 2px;
+    width: 90%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30% 30% 30%;
+    //   grid-auto-rows: 33%;
+    grid-column-gap: 2%;
+    grid-row-gap: 20px;
+    overflow-y: scroll;
+    //   overflow-x: hidden;
+  }
+  .images {
+    img {
+      height: 100%;
+      width: 100%;
+      object-position: center;
+      object-fit: cover;
+      box-shadow: 0 0 10px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .head,
+    .subHead {
+      font-size: 1.5rem;
+    }
+    .bottom {
+      font-size: 1rem;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .buttons {
+      padding: 2px 8px;
+      margin-left: 0;
+      margin-right: 1px;
+    }
+    .tagName {
+      font-size: 1rem;
+    }
+  }
+}
+.sliderContainer {
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+.item {
+  display: inline-flex;
+  white-space: normal;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.tagName {
+  background-color: cadetblue;
+  border-bottom: 2px solid;
+}
